@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tripma</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a class="header__logo">
+        <img class="header__logo-image" src="./images/logo.svg" />
+      </a>
+      <div class="header__right-column">
+        <nav class="header__menu">
+          <ul class="header__links-list">
+            <li class="header__links-list-item">
+              <a href="#0" class="header__link header__link_active">Flights</a>
+            </li>
+            <li class="header__links-list-item">
+              <a href="#0" class="header__link">Hotels</a>
+            </li>
+            <li class="header__links-list-item">
+              <a href="#0" class="header__link">Packages</a>
+            </li>
+            <li class="header__links-list-item">
+              <a href="#0" class="header__link">Sign in</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="sign-button">
+          <a href="#0" class="sign-button-link">Sign up</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="cover">
+        <h1 class="cover__title">It's more than <br />just a trip</h1>
+        <div class="search">
+          <table class="search__table">
+            <tr class="search__table-row">
+              <th class="search__table-column search__table-question">
+                <div class="search__table-description">
+                  <img src="./images/flight.svg" class="icon-image" />
+                  <p class="search__table-text">From where?</p>
+                </div>
+              </th>
+              <th class="search__table-column">
+                <div class="search__table-description">
+                  <img src="./images/department.svg" class="icon-image" />
+                  <p class="search__table-text">Where to?</p>
+                </div>
+              </th>
+              <th class="search__table-column search__table-calendar">
+                <div class="search__table-description">
+                  <img
+                    src="./images/calendar.svg"
+                    class="icon-image icon-calendar"
+                  />
+                  <p class="search__table-text">Depart - Return</p>
+                </div>
+              </th>
+              <th class="search__table-column search__table-person">
+                <div class="search__table-description">
+                  <img
+                    src="./images/person.svg"
+                    class="icon-image icon-person"
+                  />
+                  <p class="search__table-text">1 adult</p>
+                </div>
+              </th>
+            </tr>
+          </table>
+          <div class="search-button">Search</div>
+        </div>
+      </section>
+      <section class="flight-details">
+        <div class="flight-details__header">
+          <h2 class="flight-details-title">
+            Find your next adventure with these
+            <span class="blue-selection">flight deals</span>
+          </h2>
+          <a class="flight-details-link" href="#0">
+            All
+            <img class="arrow" src="./images/arrow.svg" />
+          </a>
+        </div>
+        <ul class="flight-details__cards-list">
+          <li class="flight-details__cards-list-item">
+            <a class="flight-details__card-link">
+              <article class="flight-details__card">
+                <img class="image-place" src="./images/image 1.png" />
+                <div class="flight-details-description">
+                  <div class="flight-details__card-header">
+                    <h3 class="flight-details__card-title">
+                      The Bund, <span class="blue-selection">Shanghai</span>
+                    </h3>
+                    <p class="flight-details__card-cost">$598</p>
+                  </div>
+                  <p class="flight-details__card-description">
+                    China’s most international city
+                  </p>
+                </div>
+              </article>
+            </a>
+          </li>
+          <li class="flight-details__cards-list-item">
+            <a class="flight-details__card-link">
+              <article class="flight-details__card">
+                <img class="image-place" src="./images/image 2.png" />
+                <div class="flight-details-description">
+                  <div class="flight-details__card-header">
+                    <h3 class="flight-details__card-title">
+                      Sydney Opera House,
+                      <span class="blue-selection">Sydney</span>
+                    </h3>
+                    <p class="flight-details__card-cost">$981</p>
+                  </div>
+                  <p class="flight-details__card-description">
+                    Take a stroll along the famous harbor
+                  </p>
+                </div>
+              </article>
+            </a>
+          </li>
+          <li class="flight-details__cards-list-item">
+            <a class="flight-details__card-link">
+              <article class="flight-details__card">
+                <img class="image-place" src="./images/image 3.png" />
+                <div class="flight-details-description">
+                  <div class="flight-details__card-header">
+                    <h3 class="flight-details__card-title">
+                      Kōdaiji Temple, <span class="blue-selection">Kyoto</span>
+                    </h3>
+                    <p class="flight-details__card-cost">$633</p>
+                  </div>
+                  <p class="flight-details__card-description">
+                    Step back in time in the Gion district
+                  </p>
+                </div>
+              </article>
+            </a>
+          </li>
+          <li class="flight-details__cards-list-item">
+            <a class="flight-details__card-link">
+              <article class="flight-details__card widest-card">
+                <img
+                  class="image-place image_shanghai"
+                  src="./images/image4.png"
+                />
+                <div class="flight-details-description">
+                  <div class="flight-details__card-header">
+                    <h3 class="flight-details__card-title">
+                      Tsavo East National Park,
+                      <span class="blue-selection">Kenya</span>
+                    </h3>
+                    <p class="flight-details__card-cost">$1,248</p>
+                  </div>
+                  <p class="flight-details__card-description">
+                    Named after the Tsavo River, and opened in April 1984, Tsavo
+                    East National Park is one of the oldest parks in Kenya. It
+                    is located in the semi-arid Taru Desert.
+                  </p>
+                </div>
+              </article>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section class="explore">
+        <div class="flight-details__header">
+          <h2 class="flight-details-title">
+            Explore unique <span class="green-selection">places to stay</span>
+          </h2>
+          <a class="flight-details-link" href="#0">
+            All
+            <img class="arrow" src="./images/arrow.svg" />
+          </a>
+        </div>
+        <ul class="flight-details__cards-list">
+          <li class="flight-details__cards-list-item">
+            <a class="flight-details__card-link">
+              <article class="flight-details__card">
+                <img class="image-place" src="./images/image5.png" />
+                <div class="flight-details-description">
+                  <h3 class="flight-details__card-title">
+                    Stay among the atolls in
+                    <span class="green-selection">Maldives</span>
+                  </h3>
+                  <p class="flight-details__card-description">
+                    From the 2nd century AD, the islands were known as the
+                    'Money Isles' due to the abundance of cowry shells, a
+                    currency of the early ages.
+                  </p>
+                </div>
+              </article>
+            </a>
+          </li>
+          <li class="flight-details__cards-list-item">
+            <a class="flight-details__card-link">
+              <article class="flight-details__card">
+                <img class="image-place" src="./images/image6.png" />
+                <div class="flight-details-description">
+                  <h3 class="flight-details__card-title">
+                    Experience the Ourika Valley in
+                    <span class="green-selection">Morocco</span>
+                  </h3>
+                  <p class="flight-details__card-description">
+                    Morocco’s Hispano-Moorish architecture blends influences
+                    from Berber culture, Spain, and contemporary artistic
+                    currents in the Middle East.
+                  </p>
+                </div>
+              </article>
+            </a>
+          </li>
+          <li class="flight-details__cards-list-item">
+            <a class="flight-details__card-link">
+              <article class="flight-details__card">
+                <img class="image-place" src="./images/image7.png" />
+                <div class="flight-details-description">
+                  <h3 class="flight-details__card-title">
+                    Live traditionally in
+                    <span class="green-selection">Mongolia</span>
+                  </h3>
+                  <p class="flight-details__card-description">
+                    Traditional Mongolian yurts consists of an angled
+                    latticework of wood or bamboo for walls, ribs, and a wheel.
+                  </p>
+                </div>
+              </article>
+            </a>
+          </li>
+        </ul>
+        <div class="explore-button">
+          <a class="explore-button-link" href="#0">Explore more stays</a>
+        </div>
+      </section>
+      <section class="reviews">
+        <h2 class="reviews-title">
+          What <span class="blue-selection">Tripma</span> users are saying
+        </h2>
+        <ul class="reviews__cards-list">
+          <li class="reviews__cards-list-item">
+            <article class="reviews__card">
+              <img class="review-person" src="./images/girl1.png" />
+              <div class="reviews__card-column">
+                <p class="name">Yifei Chen</p>
+                <p class="place-and-date">Seoul, South Korea | April 2019</p>
+                <img class="star" src="./images/Star.png" />
+                <p class="review-text">
+                  What a great experience using Tripma! I booked all of my
+                  flights for my gap year through Tripma and never had any
+                  issues. When I had to cancel a flight because of an emergency,
+                  Tripma support helped me
+                  <a class="read-more__link" href="#0">read more...</a>
+                </p>
+              </div>
+            </article>
+          </li>
+          <li class="reviews__cards-list-item">
+            <article class="reviews__card">
+              <img class="review-person" src="./images/girl2.png" />
+              <div class="reviews__card-column">
+                <p class="name">Kaori Yamaguchi</p>
+                <p class="place-and-date">Honolulu, Hawaii | February 2017</p>
+                <img class="star" src="./images/nostar.png" />
+                <p class="review-text">
+                  My family and I visit Hawaii every year, and we usually book
+                  our flights using other services. Tripma was recommened to us
+                  by a long time friend, and I’m so glad we tried it out! The
+                  process was easy and
+                  <a class="read-more__link" href="#0">read more...</a>
+                </p>
+              </div>
+            </article>
+          </li>
+          <li class="reviews__cards-list-item">
+            <article class="reviews__card">
+              <img class="review-person" src="./images/boy.png" />
+              <div class="reviews__card-column">
+                <p class="name">Anthony Lewis</p>
+                <p class="place-and-date">Berlin, Germany | April 2019</p>
+                <img class="star" src="./images/Star.png" />
+                <p class="review-text">
+                  When I was looking to book my flight to Berlin from LAX,
+                  Tripma had the best browsing experiece so I figured I’d give
+                  it a try. It was my first time using Tripma, but I’d
+                  definitely recommend it to a friend and use it for
+                  <a class="read-more__link" href="#0">read more...</a>
+                </p>
+              </div>
+            </article>
+          </li>
+        </ul>
+      </section>
+      <section class="info">
+        <ul class="info-list">
+          <li class="info-list-item">
+            <img class="logo__info" src="./images/logo.svg" />
+          </li>
+          <li class="info-list-item">
+            <a class="info-list-link" href="#0">About</a>
+          </li>
+          <li class="info-list-item">
+            <a class="info-list-link" href="#0">Partner with us</a>
+          </li>
+          <li class="info-list-item">
+            <a class="info-list-link" href="#0">Support</a>
+          </li>
+          <li class="info-list-item">
+            <a class="info-list-link" href="#0">Get the app</a>
+          </li>
+        </ul>
+        <ul class="download-list">
+          <li class="download-list-item">
+            <a class="download-list-link" href="#0">
+              <img class="download-list-img" src="./images/appstore.svg" />
+            </a>
+          </li>
+          <li class="download-list-item">
+            <a class="download-list-link" href="#0">
+              <img class="download-list-img" src="./images/googleplay.svg" />
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <ul class="footer__social-list">
+        <li class="footer__social-list-item">
+          <a class="footer__social-link">
+            <img class="social-image" src="./images/tw.svg" />
+          </a>
+        </li>
+        <li class="footer__social-list-item">
+          <a class="footer__social-link">
+            <img class="social-image" src="./images/in.svg" />
+          </a>
+        </li>
+        <li class="footer__social-list-item">
+          <a class="footer__social-link">
+            <img class="social-image" src="./images/face.svg" />
+          </a>
+        </li>
+      </ul>
+      <p class="copywrite">© 2020 Tripma incorporated</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,367 @@
+@import url(https://fonts.googleapis.com/css?family=Rubik+One&subset=latin,cyrillic);
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 788px;
+  padding: 45px 40px 33px 36px;
+}
+
+.header__links-list {
+  display: flex;
+  gap: 36px;
+  list-style: none;
+}
+
+.header__right-column {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+
+.header__link {
+  color: #7C8DB0;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.header__link_active {
+  color: #605DEC;
+}
+
+.sign-button {
+  width: 95px;
+  height: 48px;
+  border-width: 3px;
+  border-color: #605DEC;
+  border-radius: 4px;
+  padding: 13px 20px;
+  color: #FAFAFA;
+  background-color: #605DEC;
+  text-wrap: nowrap;
+}
+
+.sign-button-link {
+  text-decoration: none;
+}
+
+.cover {
+  padding: 94px 120px 245px 120px;
+  background-image: url(../images/map.png);
+}
+
+.cover__title {
+  display: flex;
+  justify-self: center;
+  max-width: 700px;
+  color: #0B2349;
+  font-weight: 800;
+  font-size: 96px;
+  line-height: 100px;
+  text-align: center;
+  background: url(../images/gradient.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.search {
+  display: flex;
+  gap: 8px;
+  margin: 64px 0 0 0;
+}
+
+.search__table {
+  display: flex;
+  border: 1px solid #CBD4E6;
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px 0px rgba(34, 60, 80, 0.2);
+  background-color: #FFFFFF;
+  border-collapse: collapse;
+}
+
+
+
+.search__table-column {
+  width: 324px;
+  border-radius: 12px;
+  border-left: 1px solid #CBD4E6;
+}
+
+.search__table-question {
+  border-left: none;
+}
+
+.search__table-calendar {
+  width: 252px;
+}
+
+.search__table-person {
+  width: 200px;
+}
+
+.search__table-description {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 8px 0 8px 12px;
+}
+
+.icon-image {
+  width: 30px;
+}
+
+.icon-calendar {
+  width: 22px;
+}
+
+.icon-person {
+  width: 34px;
+}
+
+.search__table-text {
+  color: #7C8DB0;
+  font-size: 18px;
+}
+
+.search-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  border-radius: 10px;
+  padding: 11.5px 20px;
+  color: #FAFAFA;
+  font-size: 18px;
+  background-color: #605DEC;
+}
+
+.flight-details__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flight-details-title {
+  color: #6E7491;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.blue-selection {
+  color: #605DEC;
+}
+
+
+.flight-details-link {
+  color: #A1B0CC;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.arrow {
+  width: 20px;
+}
+
+.flight-details {
+  margin: 40px 64px;
+}
+
+.flight-details__header {
+  margin-bottom: 24px;
+}
+
+.flight-details__cards-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  list-style: none;
+}
+
+.flight-details__card {
+  width: 410px;
+}
+
+.flight-details__card-title {
+  color: #6E7491;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.flight-details__card-description {
+  color: #7C8DB0;
+  font-size: 16px;
+}
+
+.flight-details__card-cost {
+  color: #6E7491;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.flight-details__card {
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px 0px rgba(34, 60, 80, 0.2);
+}
+
+.flight-details-description {
+  padding: 16px 24px;
+  line-height: 30px;
+}
+
+.image-place {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.widest-card {
+  width: 100%;
+}
+
+.flight-details__card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.explore {
+  margin: 120px 0 0 0;
+  padding: 0 64px;
+}
+
+.green-selection {
+  color: #22C3A6;
+}
+
+.image-place{
+  height: 397px;
+}
+
+.explore-button {
+  display: flex;
+  justify-self: center;
+  width: 195px;
+  height: 48px;
+  margin: 80px 0 40px 0;
+  border-radius: 4px;
+  padding: 11.5px 20px;
+  color: #FAFAFA;
+  font-size: 18px;
+  background-color: #605DEC;
+}
+
+.explore-button-link {
+  text-decoration: none;
+}
+
+.reviews {
+  padding: 64px;
+}
+
+.reviews-title {
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.reviews__cards-list {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+.reviews__card {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+
+.review-person {
+  width: 48px;
+  height: 48px;
+}
+
+.name {
+  color: #6E7491;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.place-and-date {
+  color: #6E7491;
+  font-size: 18px;
+}
+
+.review-text {
+  max-width: 320px;
+  color: #27273F;
+  font-size: 18px;
+}
+
+.star {
+  width: 120px;
+}
+
+.read-more__link {
+  color: #605DEC;
+  text-decoration: none;
+}
+
+.info {
+  padding: 60px 120px 40px 120px;
+}
+
+.info-list {
+  display: flex;
+  align-items: center;
+  gap: 176px;
+  list-style: none;
+}
+
+.info-list-link {
+  color: #6E7491;
+  font-weight: 800;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.logo__info {
+  width: 107px;
+}
+
+.download-list {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-top: 20px;
+  list-style: none;
+}
+
+.download-list-img {
+  width: 135px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #CBD4E6;
+  padding: 36.5px 120px 35.5px 128px;
+}
+
+.footer__social-list {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  list-style: none;
+}
+
+.social-image {
+  width: 26px;
+}
+
+.copywrite {
+  color: #7C8DB0;
+  font-size: 18px;
+}
+
+
